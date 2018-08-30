@@ -1,0 +1,342 @@
+@media only screen and (orientation: landscape) {
+    .nav {
+        
+        float: none;
+        width: 100%;
+    }
+    .item{
+        
+        float: none;
+        width: 100%;
+    }
+    .container{
+        
+        float: none;
+        font-size: 100%;
+        font-family: monospace;
+        
+    }
+    .emails{
+        
+        float: none;
+        font-size: 100%;
+        font-family: monospace;
+        width: 100%;
+    }
+    .about{
+        
+        float: none;
+        font-size: 100%;
+        font-family: monospace;
+        width: 100%;
+    }
+    
+    .outdoor {
+        
+        float: none;
+        width: auto;
+        
+    }
+    
+}  
+
+
+body{
+    
+    background-image: url(images/230241004-old-book-wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: fantasy;
+
+}
+
+
+.nav{
+    
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+
+}
+
+.ul ul li
+{
+    float: left;
+} 
+
+.ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    float: right;
+}
+
+.nav ul {
+    
+
+    padding-left: 0;
+    list-style-type: none;
+    overflow: hidden;
+
+}
+
+
+.nav ul li{
+    
+    margin-bottom: 2px;
+    margin-left: 20px;
+    
+}
+
+.nav ul li a{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logo{
+
+    float:left;
+    padding-top: 0;
+    
+}
+
+.nav img{
+    
+    height: 50px;
+}
+
+.logo img{
+    
+    background-size: 100% 100%;
+}
+
+
+.conatiner {
+    
+    
+    background-color: #614337;
+    border-bottom:50%;
+    text-align: center;
+    border: solid 5px #7D584C;
+/*    font-family: 'Inconsolata', monospace;*/
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    overflow: hidden;
+    
+
+}
+
+.clr{
+    clear: both;
+}
+
+.item {
+    
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 25%;
+    padding-left: 20px;
+    height: 150px;
+    border: solid 3px #7D584C;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #614337;
+    float: left;
+    text-align: center;
+
+}
+
+.reco{
+    
+    background-color:#110A14;
+    overflow: hidden;
+    color: burlywood;
+    margin-top: 50px;
+    font-family: 'Slabo 27px', serif;
+
+}
+
+.reco .magic{
+    
+    
+    width: 80%;
+}
+
+.reco .magic img{
+    
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.reco .quotes{
+    
+    text-align: center;
+    width: 60%;
+    float: left;
+}
+
+.outdoor{
+    
+    height: 400px;
+    overflow: hidden;
+    font-family: 'Slabo 27px', serif;
+}
+
+.outdoor .pages{
+    
+
+    width: 30%;
+    text-align: center;
+    padding: 70px 2px;
+    float: left;
+    padding-left: 20px;
+
+}
+
+/*
+.outdoor:hover .pages{
+    
+    opacity: 1;
+    transform: rotate(-360deg);
+}
+*/
+
+.outdoor:hover img{
+    
+    transform: scale(1.2,1.2);
+}
+
+
+.outdoor .pages img{
+    
+    width: 100%;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+.outdoor .pages h2{
+    
+
+    font-size: 130%;
+    background-color: sienna;
+
+}
+
+/*
+.outdoor p {
+    
+    padding: 15px;
+    font-size: 18px;
+    position: relative;
+    left: 120%;
+    transition: all 1s;
+    transition-delay: 1.5s;
+    
+}
+*/
+
+
+.clr{
+    
+    clear: both;
+}
+
+.clr {
+    
+    clear: both;
+}
+
+.important{
+    
+    background-color:#594037;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+    
+.important .benefits{
+    
+    width: 25%;
+    float: left;
+    
+}
+
+.benefits{
+    
+    width: 20%;
+    padding: 30px 2px;
+    text-align: center;
+    
+}
+
+.important .reading{
+    
+    text-align: center;
+    width: 20%;
+    height: 37%;
+    float:left;
+    padding-left: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+    
+}
+
+.benefits img{
+
+    width: 99%;
+    height: 37%;
+    float: left;
+    position: relative;
+    bottom: 20px;
+    padding-left: 10px;
+
+
+}
+
+.clr{
+    
+    clear: both;
+}
+
+.contact{
+    
+    background-image: url(images/book-wallpaper.jpg);
+    background-size: 100% 100%;
+    height: 60%;
+    margin-top: 50px;
+    
+}
+
+.contact .about{
+    
+    margin-top: 80px;
+    overflow: hidden;
+}
+/*
+
+.about{
+    
+    padding-top: 60px;
+    padding-left: 20px;
+    
+}
+*/
+
+.about h2{
+    
+    text-align: center;
+    float: right;
+    width: 45%;
+    height: 20%;
+    
+    
+}
+
+.contact .about{
+    
+    float: right;
+}
+
+.clr{
+    
+    clear: both;
+}
